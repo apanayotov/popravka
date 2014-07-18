@@ -1,0 +1,25 @@
+Project app:
+Test Generator for square and cubic equation.
+
+Title: Test Generator for square equation.
+  Description: Generirane na kvadratni uravneniq.
+  Task 01: Generirane na usloviq (ax^2+bx+c=0)
+  Task 02: Generirane na resheniq (x1,x2..,xN)
+  Task 03: Pisane v C file i izpulnqvaneto mu 
+  Task 04: Grafika na uravnenieto
+
+ Title: Test Generator for cubic equation.
+  Description: Generirne na kubichni uravneniq
+  Task 01: Generirane na usloviq (ax^3+bx^2+cx+d=0)
+  Task 02: Generirane na resheniq (x1,x2..,xN)
+  Task 03: Pisane v C file i izpulnqvaneto mu
+  Task 04: Grafika na uravnenieto
+
+ Title: HTML file containing test + answer
+  Description: Exporting na testa kato html
+  Task 01: Export as HTML
+
+Title: PDF file containing test + answer.
+  Description: Exporting na testa kato PDF 
+  Task 01: Export as PDF
+
