@@ -1,23 +1,28 @@
-puts 'Enter the coefficients'
-puts 'Enter a: '
-STDOUT.flush              
-a=gets.chomp.to_f                                 
-puts 'Enter b: '
-STDOUT.flush 
-b=gets.chomp.to_f                               
-puts 'Enter c: '
-STDOUT.flush 
-c=gets.chomp.to_f                                 
+def generate_quadratic 
+	pool = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
 
-D = b*b -4*a*c                                    
+	return "#{pool.sample}x^2 + #{pool.sample}x + #{pool.sample}"
+end
 
-if D>=0                                                
-  x1=(-b-Math.sqrt(D))/(2*a)                
-  x2=(-b+Math.sqrt(D))/(2*a)               
-  puts 'x1: '+x1.to_s+' x2: '+x2.to_s  
-  else                                                 
-    x1=(-b)/(2*a)                              
-    x2=(Math.sqrt(D*(-1)))/(2*a)         
-    puts 'x1: '+x1.to_s+'-i'+x2.to_s    
-    puts 'x2: '+x1.to_s+'+i'+x2.to_s   
-  end 
+
+def make_pdf 
+
+end
+
+def make_html
+
+end
+
+
+
+print "Enter how many test you want"
+
+user_input = gets.chomp
+user_input =  user_input.to_i
+
+equations = Array.new
+
+user_input.times do 
+	equations << generate_quadratic
+end
+
