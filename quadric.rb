@@ -16,6 +16,7 @@ def solving_quadratics equations
 	b = temp[2][0].to_i
 	c = temp[4].to_i
 	d = (b*b)-(4*a*c)
+	
 end
 
 def make_html_and_pdf equations, n
